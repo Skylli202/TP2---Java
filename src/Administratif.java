@@ -4,7 +4,7 @@
 
 /**
  * @author Elouan
- *
+ * 
  */
 public class Administratif extends Personnel{
 	private String fonction;
