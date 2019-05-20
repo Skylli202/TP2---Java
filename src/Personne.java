@@ -48,4 +48,8 @@ public class Personne {
 	public void ouMeTrouver() {
 		System.out.println("Je ne sais pas ou je suis.");
 	}
+	
+	public String toString() {
+		return nom + " " + prenom + " " + age + " ans";
+	}
 }

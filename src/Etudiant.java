@@ -37,4 +37,12 @@ public class Etudiant extends Personne {
 	public void setNbAbsences(int nbAbsences) {
 		this.nbAbsences = nbAbsences;
 	}
+	
+	public void ouMeTrouver() {
+		System.out.println("Je suis en cours tous les jours, sauf les jeudis après-midi (je fais du sport, mais c'est comme un cours car j'aime pas le sport).");
+	}
+	
+	public String toString() {
+		return super.toString() + ", promotion \"" + promotion + "\", nombres d'Abs : " + nbAbsences;
+	}
 }

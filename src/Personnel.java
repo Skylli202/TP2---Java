@@ -39,4 +39,8 @@ public class Personnel extends Personne {
 	public void afficherAge() {
 		System.out.println("Ce personnel a " + age + "an(s)");
 	}
+	
+	public String toString() {
+		return super.toString() + ", service \"" + service + "\"";
+	}
 }
