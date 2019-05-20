@@ -44,4 +44,8 @@ public class Personne {
 	public void setNom(String nom) {
 		this.nom = nom;
 	}
+	
+	public void ouMeTrouver() {
+		System.out.println("Je ne sais pas ou je suis.");
+	}
 }
